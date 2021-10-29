@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "su.plo.elytraremover.mixin",
+    "compatibilityLevel": "JAVA_16",
+    "mixins": [
+    ],
+    "server": [
+        "MixinEndCityPieces",
+        "MixinInventory"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
