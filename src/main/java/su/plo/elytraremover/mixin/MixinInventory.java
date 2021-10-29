@@ -37,7 +37,6 @@ public class MixinInventory {
         if (itemStack.getItem() instanceof ElytraItem) {
             itemStack.setCount(0);
             ci.cancel();
-
         }
     }
 }
