@@ -4,11 +4,11 @@
     "package": "su.plo.elytraremover.mixin",
     "compatibilityLevel": "JAVA_16",
     "mixins": [
-    ],
-    "server": [
         "MixinEndCityPieces",
         "MixinInventory",
         "MixinItemEntity"
+    ],
+    "server": [
     ],
     "client": [
     ],
